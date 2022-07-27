@@ -10,8 +10,8 @@ const Navbar = () => {
           <img src={Logo} style={{ width: "150px" }}></img>
         </div>
         {/* Menu */}
-        <div>
-          <ul className="flex justify-between">
+        <div className="hidden md:flex">
+          <ul className="hidden md:flex">
             <li>Home</li>
             <li>About</li>
             <li>Skills</li>
@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
         {/* Social Icons */}
-        <div></div>
+        <div className="hidden"></div>
       </div>
     </>
   );
